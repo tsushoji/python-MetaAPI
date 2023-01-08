@@ -1,7 +1,8 @@
 from time import sleep
 import requests
 
-BASE_URL='https://graph.facebook.com/v15.0'
+# ex)BASE_URL='https://graph.facebook.com/v15.0'
+BASE_URL='https://graph.facebook.com/個人でセット'
 
 class InstagramGraphAPI:
 
