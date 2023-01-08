@@ -1,5 +1,3 @@
-from instagram_graph_api import InstagramGraphAPI
-
 import openpyxl
 
 def convert_result_to_excel(result,excel_file_path):
