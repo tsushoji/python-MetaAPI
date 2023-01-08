@@ -10,7 +10,7 @@ def get_user_json_test():
 
 def get_media_json_test():
   instagram_graph_api=InstagramGraphAPI()
-  data_fields='like_count,permalink'
+  data_fields='timestamp,like_count,permalink'
   print(instagram_graph_api.get_media_json(BUSINESS_ACCOUNT_ID,USER_NAME,ACCESS_TOKEN,data_fields))
 
 def main():
